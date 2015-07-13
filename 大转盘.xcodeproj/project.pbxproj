@@ -14,7 +14,6 @@
 		78FAFD2E1B4E55C400B4A01C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFD2D1B4E55C400B4A01C /* ViewController.m */; };
 		78FAFD311B4E55C400B4A01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFD2F1B4E55C400B4A01C /* Main.storyboard */; };
 		78FAFD331B4E55C400B4A01C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFD321B4E55C400B4A01C /* Images.xcassets */; };
-		78FAFD361B4E55C400B4A01C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFD341B4E55C400B4A01C /* LaunchScreen.xib */; };
 		78FAFD421B4E55C400B4A01C /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFD411B4E55C400B4A01C /* ___Tests.m */; };
 		78FAFD501B4E591000B4A01C /* 转盘转动.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFD4F1B4E591000B4A01C /* 转盘转动.gif */; };
 /* End PBXBuildFile section */
@@ -42,7 +41,6 @@
 		78FAFD2D1B4E55C400B4A01C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78FAFD301B4E55C400B4A01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78FAFD321B4E55C400B4A01C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		78FAFD351B4E55C400B4A01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78FAFD3B1B4E55C400B4A01C /* 大转盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "大转盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FAFD401B4E55C400B4A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FAFD411B4E55C400B4A01C /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				78FAFD2D1B4E55C400B4A01C /* ViewController.m */,
 				78FAFD2F1B4E55C400B4A01C /* Main.storyboard */,
 				78FAFD321B4E55C400B4A01C /* Images.xcassets */,
-				78FAFD341B4E55C400B4A01C /* LaunchScreen.xib */,
 				78FAFD251B4E55C300B4A01C /* Supporting Files */,
 			);
 			path = "大转盘";
@@ -190,6 +187,7 @@
 					};
 					78FAFD3A1B4E55C400B4A01C = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7D5ND687AP;
 						TestTargetID = 78FAFD211B4E55C300B4A01C;
 					};
 				};
@@ -221,7 +219,6 @@
 				78FAFD501B4E591000B4A01C /* 转盘转动.gif in Resources */,
 				78A4A3821B4F763800EA24E9 /* BigWheelController.xib in Resources */,
 				78FAFD311B4E55C400B4A01C /* Main.storyboard in Resources */,
-				78FAFD361B4E55C400B4A01C /* LaunchScreen.xib in Resources */,
 				78FAFD331B4E55C400B4A01C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,14 +271,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		78FAFD341B4E55C400B4A01C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78FAFD351B4E55C400B4A01C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -302,7 +291,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -324,6 +314,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ae9beb09-a62a-4f4a-9209-05f7b4fd5b3f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -345,7 +336,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -360,6 +352,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ae9beb09-a62a-4f4a-9209-05f7b4fd5b3f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -369,10 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
 				INFOPLIST_FILE = "大转盘/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae9beb09-a62a-4f4a-9209-05f7b4fd5b3f";
 			};
 			name = Debug;
 		};
@@ -380,10 +376,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 嘉炜 贺 (JW3ACRQ3TL)";
 				INFOPLIST_FILE = "大转盘/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae9beb09-a62a-4f4a-9209-05f7b4fd5b3f";
 			};
 			name = Release;
 		};
@@ -391,6 +390,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -402,6 +403,7 @@
 				INFOPLIST_FILE = "大转盘Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/大转盘.app/大转盘";
 			};
 			name = Debug;
@@ -410,6 +412,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -417,6 +421,7 @@
 				INFOPLIST_FILE = "大转盘Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/大转盘.app/大转盘";
 			};
 			name = Release;
